@@ -8,20 +8,20 @@ import { Share2, Sparkles, Search } from 'lucide-react';
 export function FeaturesSection() {
   const features = [
     {
-      title: 'Easy Exchange',
-      description: "We're making that first handshake simple. It's like a universal AirDrop that works on any phone, even if they don't have the app.",
+      title: 'Swap Contacts Instantly',
+      description: "Tap phones together. Done. No 'What's your number?' No typing. Works on any phone - iPhone, Android, even if they don't have the app.",
       icon: <Share2 size={48} />,
       gradient: 'pink-purple' as const
     },
     {
       title: 'Add Context',
-      description: 'The moment you connect, our AI instantly enriches the contact. Add text notes or 10-second voice notes and our AI transcribes and files it.',
+      description: "After you meet: 10-second voice note. 'Met at tech conference. Interested in AI.' Done. We transcribe and remember everything.",
       icon: <Sparkles size={48} />,
       gradient: 'blue-teal' as const
     },
     {
       title: 'Search Anything',
-      description: "All this rich context is now yours. You don't need to remember a name. Search by concept like 'Girl from UPenn at XYZ conference' and find her instantly.",
+      description: "Can't remember her name? Search 'UPenn girl, XYZ conference, mentioned studying abroad' and instantly find her. No perfect recall needed.",
       icon: <Search size={48} />,
       gradient: 'orange-yellow' as const
     }
@@ -32,10 +32,10 @@ export function FeaturesSection() {
       <div className="container mx-auto px-6">
         <AnimatedSection className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
-            Your <GradientText>Second Brain</GradientText> for Relationships
+            Your Contacts, <GradientText>Supercharged</GradientText>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Re:connect aggregates your entire network from LinkedIn, iMessage, and Gmail
+            Import everyone you know from LinkedIn, Gmail, and your phone. Then actually remember who they are.
           </p>
         </AnimatedSection>
 

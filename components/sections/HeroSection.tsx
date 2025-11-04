@@ -34,8 +34,8 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              Your Network is Your{' '}
-              <GradientText>Most Powerful Asset</GradientText>
+              Remember Everyone You Meet.{' '}
+              <GradientText>Actually Use Your Network.</GradientText>
             </motion.h1>
 
             <motion.p
@@ -44,9 +44,7 @@ export function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Stop treating your network like a junk drawer. Re:connect is your{' '}
-              <span className="font-bold text-foreground">second brain</span> for managing
-              relationships that matter.
+              You meet amazing people. Then forget they exist. Re:connect makes sure every connection you make actually matters - from coffee chat to job referral.
             </motion.p>
 
             <motion.div

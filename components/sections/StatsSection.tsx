@@ -2,7 +2,7 @@
 
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
 import { GradientText } from '@/components/ui/GradientText';
-import { Users, TrendingUp, DollarSign } from 'lucide-react';
+import { Users, TrendingUp, UserCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export function StatsSection() {
@@ -15,10 +15,10 @@ export function StatsSection() {
       gradient: 'pink-purple' as const
     },
     {
-      icon: <DollarSign size={48} />,
-      value: '$34.1B',
-      label: 'Market Size',
-      description: 'Total addressable market opportunity',
+      icon: <UserCheck size={48} />,
+      value: '2,500+',
+      label: 'On Waitlist',
+      description: 'Students and professionals getting early access',
       gradient: 'blue-teal' as const
     },
     {

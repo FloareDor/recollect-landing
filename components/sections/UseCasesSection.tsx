@@ -14,7 +14,7 @@ export function UseCasesSection() {
     },
     {
       title: 'Job Hunting',
-      description: 'Search your network for people at target companies or in your industry. Your next opportunity is in your pocket.',
+      description: 'Applying to Google? Search "Google" and find 3 people in your network who can refer you. That\'s a 10x better chance of getting hired.',
       bgColor: 'bg-brand-orange',
       textColor: 'text-white'
     },

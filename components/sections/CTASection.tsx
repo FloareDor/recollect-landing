@@ -35,11 +35,10 @@ export function CTASection() {
       <div className="container mx-auto px-6 relative z-10">
         <AnimatedSection className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-            Stop Losing Track of Your Network
+            Never Forget a Connection Again
           </h2>
           <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-            Your network is your <GradientText>most powerful asset</GradientText>. Don't let it sit
-            in a junk drawer.
+            The next person you meet could get you a job, an intro, or change your life. Don't let them disappear.
           </p>
         </AnimatedSection>
 
@@ -53,7 +52,7 @@ export function CTASection() {
             animate={{ opacity: [0.6, 1, 0.6] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            Join 1,000+ students getting early access
+            Join 2,500+ people getting early access (launching Spring 2025)
           </motion.p>
         </AnimatedSection>
       </div>

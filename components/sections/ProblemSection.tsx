@@ -29,7 +29,7 @@ export function ProblemSection() {
             <GradientText gradient="orange-yellow">We've All Been There</GradientText>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Your network is your most valuable asset, but it's treated like a junk drawer
+            You've met hundreds of people who could change your life. You just can't remember them.
           </p>
         </AnimatedSection>
 

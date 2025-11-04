@@ -18,12 +18,11 @@ export function ImportSection() {
       <div className="container mx-auto px-6">
         <AnimatedSection className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6">
-            You Don't Have to{' '}
-            <GradientText gradient="blue-teal">Start from Zero</GradientText>
+            Start With{' '}
+            <GradientText gradient="blue-teal">Everyone You Already Know</GradientText>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Import your entire network in just 15 minutes. We make it easy to securely bring in all
-            your existing contacts.
+            Import 1,000+ contacts from LinkedIn, Gmail, and your phone in 15 minutes. Zero manual entry.
           </p>
         </AnimatedSection>
 

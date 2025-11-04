@@ -152,21 +152,21 @@ Building a modern, playful landing page for Re:connect - a personal CRM that hel
 ## Phase 5: Waitlist Functionality
 
 ### 5.1 Frontend Setup
-- [ ] Create form validation (email format, required fields)
-- [ ] Implement form submission logic
-- [ ] Add loading states during submission
-- [ ] Add success/error toast notifications
-- [ ] Store submission state (prevent duplicate submissions)
+- [x] Create form validation (email format, required fields)
+- [x] Implement form submission logic
+- [x] Add loading states during submission
+- [x] Add success/error toast notifications
+- [x] Store submission state (prevent duplicate submissions)
 
 ### 5.2 Backend Options (Choose One)
 **Option A: Simple (No Backend)**
 - [ ] Use form service like Formspree, Basin, or Web3Forms
 - [ ] Emails sent to your inbox
 
-**Option B: Lightweight Backend**
-- [ ] Set up Next.js API route (`/api/waitlist`)
-- [ ] Integrate with Google Sheets API or Airtable
-- [ ] Add basic rate limiting
+**Option B: Lightweight Backend** ✓ *Selected*
+- [x] Set up Next.js API route (`/api/waitlist`)
+- [x] Add basic rate limiting
+- [ ] Integrate with Google Sheets API or Airtable (ready for integration)
 
 **Option C: Full Solution**
 - [ ] Set up Next.js API route
@@ -175,8 +175,8 @@ Building a modern, playful landing page for Re:connect - a personal CRM that hel
 - [ ] Send confirmation emails to users
 
 ### 5.3 Testing
-- [ ] Test form validation edge cases
-- [ ] Test submission success/error flows
+- [x] Test form validation edge cases
+- [x] Test submission success/error flows
 - [ ] Test on multiple devices and browsers
 
 ---
